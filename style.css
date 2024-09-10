@@ -1,9 +1,51 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
 body {
+  background:#573824 url(assets/bg-image.png) center/cover ;
   background-image: url(assets/bg-image.png);
+  background-color: #573824;
+  font: 400 16px/150% "Alice", sans-serif;
+}
+
+#page {
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  box-sizing: border-box;
+  margin: 48px auto 0;
+  max-width: 800px;
+  padding: 24px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 24px;
+}
+
+h1 {
+  font: 400 40px/140% "Alice", sans-serif;
+}
+
+#page p:nth-child(3) {
+  margin-top: 12px;
+}
+
+h2 {
+  font: 400 24px/150% "Alice", sans-serif;
+}
+
+ul {
+  padding-left: 28px;
+}
+
+footer {
+  color: #f0e8c2;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  padding: 28px;
 }
